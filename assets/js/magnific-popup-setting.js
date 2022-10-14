@@ -5,7 +5,7 @@ $(document).ready(function() {
         $(this).magnificPopup({
             type: 'image',
             closeOnContentClick: true,
-            showCloseBtn: false,
+            showCloseBtn: true,
             items: {
               src: $(this).attr('src')
             },
