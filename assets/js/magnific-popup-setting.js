@@ -4,11 +4,8 @@ $(document).ready(function() {
 		
         $(this).magnificPopup({
             type: 'image',
-            closeOnContentClick: false,
+            closeOnContentClick: true,
             showCloseBtn: close,
-            items: {
-              src: $(this).attr('src')
-            },
         });
 				
         $(this).parent('p').css('overflow', 'auto');
